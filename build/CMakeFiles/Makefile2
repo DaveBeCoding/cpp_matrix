@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/dave/Documents/src/c++/neuralnetwork_Scratch/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/build.network.dir/all
+all: CMakeFiles/matrix.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/build.network.dir/clean
+clean: CMakeFiles/matrix.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/build.network.dir
+# Target rules for target CMakeFiles/matrix.dir
 
 # All Build rule for target.
-CMakeFiles/build.network.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.network.dir/build.make CMakeFiles/build.network.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.network.dir/build.make CMakeFiles/build.network.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dave/Documents/src/c++/neuralnetwork_Scratch/build/CMakeFiles --progress-num=1,2 "Built target build.network"
-.PHONY : CMakeFiles/build.network.dir/all
+CMakeFiles/matrix.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dave/Documents/src/c++/neuralnetwork_Scratch/build/CMakeFiles --progress-num=1,2 "Built target matrix"
+.PHONY : CMakeFiles/matrix.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/build.network.dir/rule: cmake_check_build_system
+CMakeFiles/matrix.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dave/Documents/src/c++/neuralnetwork_Scratch/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/build.network.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/matrix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dave/Documents/src/c++/neuralnetwork_Scratch/build/CMakeFiles 0
-.PHONY : CMakeFiles/build.network.dir/rule
+.PHONY : CMakeFiles/matrix.dir/rule
 
 # Convenience name for target.
-build.network: CMakeFiles/build.network.dir/rule
-.PHONY : build.network
+matrix: CMakeFiles/matrix.dir/rule
+.PHONY : matrix
 
 # clean rule for target.
-CMakeFiles/build.network.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/build.network.dir/build.make CMakeFiles/build.network.dir/clean
-.PHONY : CMakeFiles/build.network.dir/clean
+CMakeFiles/matrix.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matrix.dir/build.make CMakeFiles/matrix.dir/clean
+.PHONY : CMakeFiles/matrix.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
